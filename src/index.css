@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+  --primary-color: #8ecae6;
+  --heading-font: 'Pacifico', cursive;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font:inherit;
+}
+
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:7px;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
