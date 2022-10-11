@@ -1,0 +1,6 @@
+.Button {}
+.Secondary{
+  border: 2px black solid;
+  padding: 7px 10px;
+  border-radius: .4rem;
+}
