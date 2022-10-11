@@ -1,0 +1,15 @@
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: black; 
+  min-height: 75px;
+  padding: 0 20px;
+}
+
+.heading{
+  font-family: var(--heading-font);
+  font-size: clamp(.5rem,)
+}
