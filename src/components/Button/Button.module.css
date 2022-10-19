@@ -1,6 +1,19 @@
-.Button {}
-.Secondary{
+a{
   border: 2px black solid;
-  padding: 7px 10px;
+  cursor: pointer;
+  transition: border .4s linear; 
   border-radius: .4rem;
+  padding: 7px 10px; 
+}
+a:hover{
+  border: 2px white solid;
+
+}
+.Button {
+  background-color: black;
+  color: var(--primary-color);
+  
+}
+.Secondary{
+  background-color: var(--primary-color);
 }
