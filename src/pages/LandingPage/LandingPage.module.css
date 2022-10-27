@@ -1,0 +1,51 @@
+.LandingPage {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+}
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.hero>img{
+  max-width: 50%;
+  z-index: 1;
+}
+.heroText>h1{
+  font-size: 2.5rem;
+}
+.heroText>p{
+  font-size: medium;
+  max-width: fit-content;
+  margin-top: 5px;
+  text-align: left;
+}
+.buttonSection{
+  margin:20px 0;
+}
+.heroText{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.heroText>div{
+  margin: 10px;
+}
+
+
+
+
+@media (max-width: 800px){
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .hero>img{
+    max-width: 100%;
+  }
+  .heroText>h1{
+    margin: 10px 0;
+  }
+
+  
+}
