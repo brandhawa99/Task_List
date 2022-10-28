@@ -1,7 +1,7 @@
 a{
   border: 2px black solid;
   cursor: pointer;
-  transition: border .2s ease-in-out .15s; 
+  transition: border .2s ease-in-out; 
   border-radius: .4rem;
   padding: 7px 10px; 
 }
