@@ -1,13 +1,14 @@
-a{
+.every{
   border: 2px black solid;
   cursor: pointer;
   transition: border .2s ease-in-out; 
   border-radius: .4rem;
   padding: 7px 10px; 
+  text-decoration: none;
 }
-a:hover{
+.every:hover{
   border: 2px white solid;
-
+  
 }
 .Button {
   background-color: black;
@@ -16,4 +17,6 @@ a:hover{
 }
 .Secondary{
   background-color: var(--primary-color);
+  text-decoration: none;
+  color: black;
 }

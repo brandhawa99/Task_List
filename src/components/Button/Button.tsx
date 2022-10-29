@@ -1,12 +1,13 @@
 import React, { FC } from 'react';
 import styles from './Button.module.css';
+import { Link } from 'react-router-dom';
 
-interface ButtonProps {title:string, primary?:true}
+interface ButtonProps {title:string, primary?:true, link:string}
 
-const Button: FC<ButtonProps> = ({title,primary}) => {
+const Button: FC<ButtonProps> = ({title,primary,link}) => {
   return primary? 
-    (<a className={styles.Button} data-testid="Button">{title}</a>):
-    (<a className={styles.Secondary} data-testid="Button">{title}</a>)
+    (<Link to={link} className={`${styles.Button} ${styles.every}`} data-testid="Button">{title}</Link>):
+    (<Link to={link} className={`${styles.Secondary} ${styles.every}`} data-testid="Button">{title}</Link>)
 
 }
 

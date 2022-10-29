@@ -5,7 +5,7 @@ import Button from './Button';
 
 describe('<Button />', () => {
   test('it should mount', () => {
-    render(<Button title="button" />);
+    render(<Button link='/login' title="button" />);
     
     const button = screen.getByTestId('Button');
 
