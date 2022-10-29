@@ -15,7 +15,7 @@ const LandingPage: FC<LandingPageProps> = () => (
             This is the best place to track what you have to do. Just Scribble it down, and now you have it saved in one spot for later.
           </p>
           <div>
-            <Button title=' Click Here To Sign Up' />
+            <Button link='/signup' title='Click Here To Sign Up' />
           </div>
 
         </div>
