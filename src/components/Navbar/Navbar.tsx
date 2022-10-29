@@ -8,10 +8,10 @@ const Navbar: FC<NavbarProps> = () => (
     <h1 className={styles.heading}>Scribble Notes</h1>
     <ul className='row'>
       <li>
-        <Button title="Login" primary={true} />
+          <Button link='/login' title="Login" primary={true} />
       </li>
       <li>
-        <Button title="Sign Up" />
+        <Button link='/login' title="Sign Up" />
       </li>
     </ul>
   </nav>
