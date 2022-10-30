@@ -1,0 +1,14 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: calc(100vh - 200px);
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+}
+.Login>h1{
+  font-size: xx-large;
+  font-weight: 500;
+}
+
