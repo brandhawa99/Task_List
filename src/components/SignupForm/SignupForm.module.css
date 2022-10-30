@@ -1,0 +1,62 @@
+.LoginForm {
+  background-color: var(--nav-color);
+  border-radius: .5rem;
+}
+.Form{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:7px;
+  padding:20px 20px;
+}
+.Input{
+  padding: 7px 10px;
+  border-radius: .2rem;
+  border: none;
+}
+.formElement{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.formElement>label{
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 200px;
+}
+.buttonContainer{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+}
+.buttonContainer>button{
+  justify-self: flex-start;
+  padding: 7px 20px;
+  border-radius: .25rem;
+  border: none;
+  cursor: pointer;
+  min-width: 300px;
+  margin-top: 20px;
+}
+.buttonContainer>button:hover{
+  background-color: rgb(220, 220, 220);
+}
+
+@media  (max-width: 600px) {
+  .formElement{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .formElement>label{
+    font-weight: 400;
+    font-size: 1.05rem;
+    width: auto;
+  }
+  .buttonContainer>button{
+    width: 100%;
+    min-width: 20px;
+  }
+  
+}
