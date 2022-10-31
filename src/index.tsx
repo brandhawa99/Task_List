@@ -12,8 +12,8 @@ const router = createBrowserRouter(
   <Route>
     <Route element={<App />}>
       <Route path='/' element={<LandingPage />} />
+      <Route path="/signup" element={<Signup/>}/>
     </Route>
-    <Route path="/signup" element={<Signup/>}/>
 
   </Route>
   )
