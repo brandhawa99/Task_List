@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import styles from './LandingPage.module.css';
 import hero from '../../images/homepage.svg'
 import Button from '../../components/Button/Button'
+import LoginWithProvider from '../../components/LoginWithProvider/LoginWithProvider';
 interface LandingPageProps {}
 
 const LandingPage: FC<LandingPageProps> = () => (
@@ -16,6 +17,7 @@ const LandingPage: FC<LandingPageProps> = () => (
           </p>
           <div>
             <Button link='/signup' title='Click Here To Sign Up' />
+            <LoginWithProvider />
           </div>
 
         </div>
