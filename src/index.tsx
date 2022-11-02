@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import LandingPage from './pages/LandingPage/LandingPage';
 import { createBrowserRouter, RouterProvider,Route, createRoutesFromElements } from 'react-router-dom';
-import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Signup from './pages/Signup/Signup';
+import LoginPage from './pages/LoginPage/LoginPage'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,8 +13,8 @@ const router = createBrowserRouter(
     <Route element={<App />}>
       <Route path='/' element={<LandingPage />} />
       <Route path="/signup" element={<Signup/>}/>
+      <Route path="/login" element={<LoginPage/>}/>
     </Route>
-
   </Route>
   )
   
