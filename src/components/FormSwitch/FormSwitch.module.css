@@ -1,0 +1,25 @@
+.FormSwitch {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.bar{
+  width: 100%;
+  background-color: black;
+  color:black;
+  border: 1px black solid;
+}
+.link{
+  width: 400px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  padding:7px 5px;
+  margin: 5px;
+  border-radius: .25rem;
+  transition: all .2s ease-in;
+}
+.link:hover{
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+
