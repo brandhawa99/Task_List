@@ -3,15 +3,6 @@ import styles from './SignupForm.module.css';
 interface LoginFormProps {}
 
 const LoginForm: FC<LoginFormProps> = () => {
-
-  
-  const initialValues = {
-    username:'',
-    email:'',
-    password1:'',
-    password2:'',
-
-  }
   // const checkUsername = async (e:Event) =>{
   //   let timeOut : Number;
 
@@ -43,7 +34,7 @@ const LoginForm: FC<LoginFormProps> = () => {
         <input type="password" className={styles.Input} name="password2" placeholder="Confirm Password"/>
         </div>
         <div className={styles.buttonContainer}>
-          <button>Login</button>
+          <button>Sign Up</button>
         </div>
       </form>
     </div>
