@@ -1,5 +1,6 @@
 # Scribble Notes 
 Front-end for Scribble Notes built with Reactjs and CSS. 
+Back-end currently being built with Typescript might switch to Java
 
 # Getting Started with Create React App
 
