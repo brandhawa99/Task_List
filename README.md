@@ -1,5 +1,5 @@
 # Scribble Notes 
-Front-end for Scribble Notes built with Reacjs and CSS. 
+Front-end for Scribble Notes built with Reactjs and CSS. 
 
 # Getting Started with Create React App
 
